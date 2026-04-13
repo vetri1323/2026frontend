@@ -1,0 +1,2 @@
+import{e}from"./utils-8PiSI2hp.js";import{A as s}from"./index-D87FdLuV.js";import"./router-D4AvwfLG.js";import"./chart-CqQliw9m.js";const f=t=>`${s.BASE_URL}${t}`,g={getAll:()=>e.get(f("/staff")),getById:t=>e.get(f(`/staff/${t}`)),create:t=>e.post(f("/staff"),t),update:(t,a)=>e.put(f(`/staff/${t}`),a),delete:t=>e.delete(f(`/staff/${t}`)),getActive:()=>e.get(f("/staff/active"))};export{g as staffAPI};
+//# sourceMappingURL=staffAPI-C_P57YD6.js.map
