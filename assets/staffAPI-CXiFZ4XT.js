@@ -1,0 +1,2 @@
+import{l as e}from"./vehicleManagement-ICPgaFed.js";import"./router-BAyLDWQC.js";import"./ui-kA4yCpci.js";import"./utils-BCH00GrO.js";const i={getAll:()=>e.get("/staff"),getById:t=>e.get(`/staff/${t}`),create:t=>e.post("/staff",t),update:(t,f)=>e.put(`/staff/${t}`,f),delete:t=>e.delete(`/staff/${t}`),getActive:()=>e.get("/staff/active")};export{i as staffAPI};
+//# sourceMappingURL=staffAPI-CXiFZ4XT.js.map
